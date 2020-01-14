@@ -1,6 +1,6 @@
 class Draw {
   constructor() {
-    this.options = ["/img/plum.png", "/img/diamond.png", "/img/luck.png"];
+    this.options = ["img/plum.png", "img/diamond.png", "img/luck.png"];
     let _result = this.drawResult();
 
     this.getDrawResult = () => _result;
