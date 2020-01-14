@@ -26,9 +26,11 @@ class Game {
   ) {
     // console.log("gramy");
     if (result) {
-      result = `Wygrałeś ${wonMoney}`;
+      this.spanResult.style.color = "green";
+      result = `Wygrałeś ${wonMoney} PLN`;
     } else if (!result && result !== "") {
-      result = `Przegrałeś ${bid}`;
+      this.spanResult.style.color = "red";
+      result = `Przegrałeś ${bid} PLN`;
     }
     this.spanResult.textContent = result;
     this.spanWallet.textContent = money;

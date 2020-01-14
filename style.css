@@ -31,6 +31,12 @@ h1 {
   flex-grow: 1;
   margin: 10px;
 }
+@media (min-width: 600px) {
+  .game div {
+    height: 250px;
+    width: 250px;
+  }
+}
 
 .play {
   text-align: center;
@@ -65,6 +71,19 @@ h1 {
   padding: 20px;
 }
 
+.panel .wallet {
+  font-weight: bold;
+  color: green;
+  font-size: 1.2rem;
+}
+
 .score {
   text-align: center;
+}
+
+.score .result {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 5px;
 }
