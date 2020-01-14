@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 80%;
+  margin: 5vh auto 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.game {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.game div {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.play {
+  text-align: center;
+}
+
+.play input {
+  height: 60px;
+  font-style: 40xp;
+  padding: 20px;
+  width: 400px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.play button {
+  widows: 40%;
+  height: 60px;
+  text-align: center;
+  margin: 5px;
+  padding: 20px 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 6px;
+}
+
+.panel {
+  text-align: center;
+  padding: 20px;
+}
+
+.score {
+  text-align: center;
+}
